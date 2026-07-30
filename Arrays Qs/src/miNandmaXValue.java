@@ -15,7 +15,7 @@ public class miNandmaXValue {
         System.out.println("Maximum value is: " + maxValue);
         System.out.println("Minimum value is: " + minValue);
     }
-    static void main(String[] a){
+    public static void main(String[] args){
         int[] number = {55, 22, 33, 44, 11};
         miNandmaXValue obj = new miNandmaXValue();
         obj.findmiNmaXValue(number);
