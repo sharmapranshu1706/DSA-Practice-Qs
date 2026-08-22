@@ -5,7 +5,7 @@ class maxSubArrayByPrefix {
     }
     void printSubArrSum(){
         int maxSum =Integer.MIN_VALUE;
-        int currSum = 0;
+        int currSum ;
         int[] prefixSum =  new int[arr.length];
         prefixSum[0] = arr[0];
         for(int i = 1; i<arr.length; i++){
