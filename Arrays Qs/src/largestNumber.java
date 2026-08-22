@@ -15,6 +15,4 @@ public class largestNumber {
         int result = num.findNumber(numbers);
         System.out.println("The largest number is: " + result);
     }
-
-    
 }

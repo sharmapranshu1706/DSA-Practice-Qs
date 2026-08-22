@@ -24,8 +24,7 @@ class MaxSubArraySum {
         return maxSum;
     }
         public static void main(String[] args) {
-            int[] arr = {-2,1,-3,4,-1,2,1,-5,4};
-            MaxSubArraySum max = new MaxSubArraySum(arr);
+            MaxSubArraySum max = new MaxSubArraySum(new int[]{-2,1,-3,4,-1,2,1,-5,4});
             System.out.println(max.maxSubArraySum());
         }
 }
