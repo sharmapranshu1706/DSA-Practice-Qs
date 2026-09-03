@@ -2,7 +2,7 @@ public class miNandmaXValue {
     void findmiNmaXValue(int[] number) {
         int maxValue = Integer.MIN_VALUE;
         int minValue = Integer.MAX_VALUE;
-//For each loop
+        // For each loop
         for (int n : number) {
 
             if (n > maxValue) {

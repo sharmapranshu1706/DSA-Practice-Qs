@@ -4,6 +4,7 @@ class maxSubArrSumByKadanes {
     maxSubArrSumByKadanes(int[] arr){
         this.arr = arr;
     }
+    // Two Pointer Approach
     int printMaxSubArrSum(){
         int currSum = 0;
         int maxSum = Integer.MIN_VALUE;
