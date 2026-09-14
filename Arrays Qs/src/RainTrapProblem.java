@@ -26,7 +26,7 @@ class RainTrapProblem {
         int totalTrapWater = 0;
         for(int i=0; i<n; i++){
             //Max water level calculate
-            int waterLevel = Math.max(leftMax[i], rightMax[i]);
+            int waterLevel = Math.min(leftMax[i], rightMax[i]);
             // Water trapped at index i is the difference between the water level and the height at that index
             totalTrapWater += (waterLevel - heights[i]);
         }
